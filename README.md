@@ -21,7 +21,7 @@ scikit_learn==0.23.2
 
 ## Implementation
 
-python pretrain.py # train the graph diffusion model
+python pretrain.py # train the graph diffusion model.
 
 python main.py # train the source localization model, which is the inverse of the graph model. 
 
