@@ -1,5 +1,5 @@
 
-# IVGD: Invertible Validity-aware Graph Diffusion (WWW 2022)
+# IVGD: Invertible Validity-aware Graph Diffusion
 
 This is an implementation of Invertible Validity-aware Graph Diffusion for the source localization problem, as described in our paper:
 
