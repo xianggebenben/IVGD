@@ -20,6 +20,7 @@ model_name = 'deepis' # 'deepis',
 graph = load_dataset(dataset)
 print(graph)
 influ_mat_list = copy.copy(graph.influ_mat_list)
+num_node=influ_mat_list.shape[1]
 num_training= int(len(graph.influ_mat_list)*0.8)
 graph.influ_mat_list = graph.influ_mat_list[:num_training]
 print(graph.influ_mat_list.shape), print(influ_mat_list.shape)
@@ -35,7 +36,7 @@ args_dict = {
     'λ': 0,
     'γ': 0,
     'ckpt_dir': Path('.'),
-    'idx_split_args': {'ntraining': 10, 'nstopping': 10, 'nval': 10, 'seed': 2413340114},
+    'idx_split_args': {'ntraining': int(num_node/3), 'nstopping': int(num_node/3), 'nval': int(num_node/3), 'seed': 2413340114},
     'test': False,
     'device': device,
     'print_interval': 1,
