@@ -5,7 +5,7 @@ This is an implementation of Invertible Validity-aware Graph Diffusion for the s
 
 Junxiang Wang, Junji Jiang, and Liang Zhao. An Invertible Graph Diffusion Neural Network for Source Localization. (WWW 2022)
 
-Feel free to Email Junxiang Wang (jwan936@emory.edu) if you have any question.
+Feel free to Email Junxiang Wang (junxiang.wang@alumni.emory.edu) if you have any questions.
 
 ## Requirement
 
