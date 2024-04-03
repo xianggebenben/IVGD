@@ -1,3 +1,4 @@
+# 2024/4 The IVGD is included in our recently published Python package [GraphSL](https://github.com/xianggebenben/GraphSL).
 
 # IVGD: Invertible Validity-aware Graph Diffusion
 
